@@ -1,0 +1,108 @@
+body{
+  font-family: "Courier New";
+}
+
+a {
+  color: black;
+}
+
+a.hover{
+  color: white;
+}
+
+
+.main{
+  border: 1px solid black;
+  background-image: url(../img/mobileIndex.jpg);
+  width: 640px;
+  height: 1120px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.mainblog{
+    border: 1px solid black;
+
+  background-image: url(../img/mobileRed.jpg);
+  width: 640px;
+  height: 1120px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.maincultural{
+    border: 1px solid black;
+
+  background-image: url(../img/mobilePurple.jpg);
+  width: 640px;
+  height: 1120px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.maintech{
+    border: 1px solid black;
+
+  background-image: url(../img/mobileBlue.jpg);
+  width: 640px;
+  height: 1120px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.mainwish{
+  border: 1px solid black;
+  background-image: url(../img/mobileYellow.jpg);
+  width: 640px;
+  height: 1120px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+.LinksContainer{
+  display: flex;
+  margin-left: 10px;
+  border: 1px solid black;
+
+}
+
+.Link{
+  width: 130px;
+  border: 1px solid black;
+  height: 20px;
+  margin: 15px 5px 10px 5px;
+
+
+}
+
+.page{
+  padding-top: 30px;
+  border: 1px solid black;
+  display: flex;
+  margin-left: 10px;
+}
+
+.menu{
+  width: 150px;
+  height: 250px;
+  border: 1px solid black;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+
+}
+
+.content {
+  width: 440px;
+  height: 1000px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+
+}
+
+.selected{
+  background-color: white;
+
+}
