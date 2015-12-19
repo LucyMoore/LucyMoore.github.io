@@ -1,0 +1,95 @@
+body{
+  font-family: "Courier New";
+}
+
+a {
+  color: black;
+}
+
+a.hover{
+  color: white;
+}
+
+
+.main{
+  background-image: url(../img/indexpage.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+.mainblog{
+  background-image: url(../img/redPage.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+.maincultural{
+  background-image: url(../img/purplePage.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+.maintech{
+  background-image: url(../img/bluePage.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+.mainwish{
+  background-image: url(../img/yellowPage.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+
+.LinksContainer{
+  display: flex;
+  margin-left: 100px;
+
+}
+
+.Link{
+  width: 130px;
+  height: 20px;
+  margin: 15px 10px 10px 10px;
+
+
+}
+
+.page{
+  padding-top: 30px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.menu{
+  width: 200px;
+  height: 250px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+
+}
+
+.content {
+  width: 600px;
+  height: 550px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+
+}
+
+.selected{
+  background-color: white;
+
+}
