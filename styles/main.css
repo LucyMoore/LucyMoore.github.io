@@ -110,9 +110,9 @@ a.hover{
   background-color: rgba(255,200,200,0.8);
   width: 600px;
   height: 550px;
-  margin-left: 25px;
   margin-bottom: 25px;
-  position: absolute;
+  position:relative;
+  left: 170px;
 }
 
 .selected{
