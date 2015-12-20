@@ -6,7 +6,7 @@ a {
   color: black;
 }
 
-a.hover{
+a:hover{
   color: white;
 }
 
@@ -57,6 +57,7 @@ a.hover{
   height: 1000px;
   margin-top: 20px;
   padding-top: 70px;
+  position: relative;
 }
 
 
@@ -103,12 +104,12 @@ a.hover{
   height: 550px;
   margin-left: 25px;
   margin-bottom: 25px;
-
 }
 
 .contentBlogTemp {
-  background-color: rgba(255,200,200,0.8);
+  background: rgba(255,200,200,0.8);
   width: 600px;
+  padding: 10px;
   height: 550px;
   margin-bottom: 25px;
   position:relative;
@@ -118,3 +119,4 @@ a.hover{
 .selected{
   background-color: white;
 }
+
