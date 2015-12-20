@@ -12,7 +12,6 @@ a.hover{
 
 
 .main{
-  border: 1px solid black;
   background-image: url(../img/mobileIndex.jpg);
   width: 640px;
   height: 1120px;
@@ -21,8 +20,6 @@ a.hover{
 }
 
 .mainblog{
-    border: 1px solid black;
-
   background-image: url(../img/mobileRed.jpg);
   width: 640px;
   height: 1120px;
@@ -31,8 +28,6 @@ a.hover{
 }
 
 .maincultural{
-    border: 1px solid black;
-
   background-image: url(../img/mobilePurple.jpg);
   width: 640px;
   height: 1120px;
@@ -41,8 +36,6 @@ a.hover{
 }
 
 .maintech{
-    border: 1px solid black;
-
   background-image: url(../img/mobileBlue.jpg);
   width: 640px;
   height: 1120px;
@@ -51,7 +44,6 @@ a.hover{
 }
 
 .mainwish{
-  border: 1px solid black;
   background-image: url(../img/mobileYellow.jpg);
   width: 640px;
   height: 1120px;
@@ -63,13 +55,11 @@ a.hover{
 .LinksContainer{
   display: flex;
   margin-left: 10px;
-  border: 1px solid black;
 
 }
 
 .Link{
   width: 130px;
-  border: 1px solid black;
   height: 20px;
   margin: 15px 5px 10px 5px;
 
@@ -78,7 +68,6 @@ a.hover{
 
 .page{
   padding-top: 30px;
-  border: 1px solid black;
   display: flex;
   margin-left: 10px;
 }
@@ -86,7 +75,6 @@ a.hover{
 .menu{
   width: 150px;
   height: 250px;
-  border: 1px solid black;
   margin-left: 25px;
   margin-bottom: 25px;
   padding: 20px;
@@ -98,8 +86,6 @@ a.hover{
   height: 1000px;
   margin-left: 15px;
   margin-bottom: 25px;
-  border: 1px solid black;
-
 }
 
 .selected{
