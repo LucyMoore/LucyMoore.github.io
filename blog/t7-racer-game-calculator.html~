@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lucy Moore</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="maintech"> 
+    <div class="LinksContainer">
+      <div class="Link"></div>
+      <div class="Link"><a href="../blog/c1-reflection-blog.html">Reflections</a></div>
+      <div class="Link"><a href="../blog/c1-time-and-habits-blog.html" >Cultural Blog</a></div>
+      <div class="Link"><a href="../blog/t2-html-css-dom-p1.html" >Tech Blog</a></div>
+      <div class="Link"><a href="../blog/wish-list.html">Wish List</a></div>
+      <div class="Link"><a href="../index.html">Home</a>
+    </div>
+
+    </div> 
+
+    <div class="page">
+      <div class="menu">
+        <div><a href="../blog/t2-html-css-dom-p1.html">Tech Reflection Pt 1</a></div>
+        <div><a href="../blog/t2-html-css-dom-p2.html">Tech Reflection Pt 2</a></div>
+        <div><a href="../blog/t3-design-to-web-blog.html">Design to Web</a></div> 
+        <div><a href="../blog/t4-javascript-basics.html">Javascript Basics</a></div>
+        <div><a href="../blog/t5-problem-solving.html">Problem Solving</a></div>
+	<div><a href="../blog/t6-testing.html">Problem Solving</a></div>
+        <div class="selected">Calculator and Javascript Racer 2.0</a></div>
+      </div>
+
+      <div class="content" style="overflow-y: scroll;">
+        <h1>Calculator and Javascript Racer 2.0</h1>
+          <h3> What was your experience extending the racer game?</h3>
+            <p>
+              I found it easy enough to add in my new code... but i absolutly cannot get my code to work. Coming up with ideas that were not completly beyond my ability yet was quite hard.
+            </p>
+            <h3>Did you learn anything while building the calculator?</h3>
+            <p>
+              I learnt alot more Vanilla. I can remeber jQuery better so i use that most of the time. The thing that really got me here was the logic. it was really confusing. 
+            </p>
+      </div> 
+    </div>
+
+  </div>
+</body>
+</html>
