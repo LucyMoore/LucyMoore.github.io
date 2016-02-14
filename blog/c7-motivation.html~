@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lucy Moore</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div class="maincultural"> 
+    <div class="LinksContainer">
+      <div class="Link"></div>
+      <div class="Link"><a href="../blog/c1-reflection-blog.html">Reflections</a></div>
+      <div class="Link"><a href="../blog/c1-time-and-habits-blog.html" >Cultural Blog</a></div>
+      <div class="Link"><a href="../blog/t2-html-css-dom-p1.html" >Tech Blog</a></div>
+      <div class="Link"><a href="../blog/wish-list.html">Wish List</a></div>
+      <div class="Link"><a href="../index.html">Home</a></div>
+
+    </div> 
+
+    <div class="page">
+      <div class="menu">
+        <div><a href="../blog/c1-time-and-habits-blog.html">Time and Habits</a></div>
+        <div><a href="../blog/c2-emotional-intelligence.html">Emotional Intelligence</a></div>
+        <div><a href="../blog/c3-meditation-process.html">Meditation Process</a></div> 
+        <div><a href="../blog/c4-daily-mindfulness.html">Daily Mindfulness</a></div>
+        <div><a href="../blog/c5-self-confidence.html">Self Confidence</a></div>   
+        <div><a href="../blog/c6-control.html">Control</a></div>
+	<div class="selected">Motivation</a></div>   
+
+       
+      </div>
+
+      <div class="content" style="overflow-y: scroll;">
+        <h1>Motivation</h1>
+            <h3>How does life look through the 'pleasure, passion and purpose' lens?</h3>
+              <p>
+                What i took from this chapter is that fleeting pleasures will not keep you happy.You have to keep chasing them and they will not last long, the flow i am not sure about, the higher purpose happiness is interesting. I think it is like when you decode on a goal. A goal that you are really passionate about, it might be far off in the future but your are so excited about it that it fules your motiviation. When I first enrolled in university, i didnt know what i wanted to do so i took some random papers to see what i liked, one of those papers was in "dynamtic websites with PHP and HTML". When i started this paper i found i really enjoyed it. i decided that was the way to go and one day i would be a web developer and could enjoy my work, that fuled me to work on my assignments ect but i started not caring about any other papers i had signed up for i lost all interest because i had this goal in mind and i only wnted to work on the things that would get me there.<br>
+I think this is what is meant by higher purpose, im not sure.... 
+              </p>
+            <h3>What are my core values?</h3>
+              <p>
+                Perservarence, tolerance, patience,  life balance, be open minded, be positive and be friendly 
+
+              </p>
+            <h3>What do I stand for </h3>
+              <p> 
+                Compassion and empathy towards people and animals. Accept people for who they are, dont try to change someone to fit your needs.
+		 
+              </p>
+
+		<h3>the resilience ideas and meditation exercise</h3>
+              <p>
+                I found them difficult. It was hard to remember any situations where i had failed that badly, I dont try to remember those momets, so i wasn't able to call one to mind.  
+
+              </p>
+          
+      </div> 
+    </div>
+
+  </div>
+</body>
+</html>
