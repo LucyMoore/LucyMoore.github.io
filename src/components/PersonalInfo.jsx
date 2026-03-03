@@ -6,7 +6,13 @@ import viteLogo from '/vite.svg'
 function PersonalInfo() {
   return (
     <>
-      <div className="myInfo">Personal Info</div>
+      <div className="personalInfo">
+        <h4>Phone: 0272741511</h4>
+        <hr></hr>
+        <h4>Email: Lucyviolet.moore@gmail.com</h4>
+        <hr></hr>
+        <h4>GitHub: </h4>
+      </div>
     </>
   )
 }

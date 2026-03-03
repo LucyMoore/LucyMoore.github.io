@@ -3,12 +3,14 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
 
-function References() {
+function Header() {
   return (
     <>
-      <div className="references">references</div>
+      <div className="header">
+        <h1>Lucy Violet Moore</h1>
+      </div>
     </>
   )
 }
 
-export default References
+export default Header

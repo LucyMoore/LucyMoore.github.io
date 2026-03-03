@@ -3,12 +3,12 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
 
-function References() {
+function TechSkills() {
   return (
     <>
-      <div className="references">references</div>
+      <div className="techSkills">tech skills</div>
     </>
   )
 }
 
-export default References
+export default TechSkills

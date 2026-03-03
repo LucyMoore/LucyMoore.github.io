@@ -13,18 +13,92 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-template-areas:
+    'side main main'
+    'side main main'
+    'side main main'
+    'side main main';
+  /* gap: 10px; */
+}
+
+.side {
+  display: grid;
+  grid-template-columns: minmax(100px);
+  grid-template-areas:
+    'career'
+    'skills'
+    'refs'
+    'edu'
+    'about';
+}
+
+.career {
+  background-color: purple;
+  grid-area: 'career';
+}
+
+.techSkills {
+  grid-area: 'skills';
+}
+
+.references {
+  background-color: red;
+  grid-area: 'refs';
+}
+
+.education {
+  background-color: yellow;
+  grid-area: 'edu';
+}
+
+.aboutMe {
+  background-color: lightblue;
+  grid-area: 'about';
+}
+
+.main {
+  display: grid;
+  grid-area: 'main';
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas:
+    'head head'
+    'info photo'
+    'exp photo'
+    'exp exp ';
+}
+.header {
+  grid-area: 'head';
+}
+.photo {
+  grid-area: 'photo';
+}
+
+.personalInfo {
+  background-color: rgb(72, 96, 236);
+  grid-area: 'info';
+}
+
+.experience {
+  background-color: pink;
+  grid-area: 'exp';
+}
+
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
-h1 {
-}
+/* h1 {
+} */
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -34,4 +108,4 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
+} */
