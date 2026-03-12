@@ -2,15 +2,31 @@
   <head>
     <title>Murder Mystery</title>
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <script src="./mmwiki.js"></script>
   </head>
   <body>
     <div id="contentWrapper">
       <div class="title"><h1>Murder on the Ciriculum</h1></div>
       <div class="menu">
+        <button class="btn" id="btnNotes">Case Notes</button>        
+        <button  class="btn" id="btnRules">Rules of the game</button>        
+        <button class="btn" id="btnPlayers">Players</button>        
       </div>
+
       <div class="blog">
-        <div id="post1" class="blogPost">blog content</div>
+        <div id="viewNotes" class="blogPost">
+          <div id="post1">
+            this is the case notes
+          </div>
+        </div>
+       
+        <div  id="viewRules" class="blogPost">
+          <p>the Rules of the game are as stated</p>
+        </div>
+        <div class="blogPost"id="viewPlayers" >
+          <p>a list of all those playing </p>
       </div>
+    </div>
     </div>
     </div>
   </body>

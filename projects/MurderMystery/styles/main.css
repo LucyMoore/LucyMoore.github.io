@@ -23,10 +23,23 @@ body {
 }
 
 .menu {
-  padding: 10px;
   border: 1px green solid;
   /* width: 20%; */
 }
 .blog {
   border: 2px blue solid;
+}
+
+button {
+  width: 80%;
+  background-color: #d3d3d3;
+  color: #000;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  display: block;
+}
+
+button:hover {
+  background-color: #5f82dd;
 }
