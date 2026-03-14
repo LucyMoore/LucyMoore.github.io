@@ -1,15 +1,93 @@
 <html>
   <head>
-    <title>Lucy Moore CV</title>
+    <title>Murder Mystery</title>
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <script src="./mmwiki.js"></script>
   </head>
   <body>
     <div id="contentWrapper">
-      <div class="title">Murder on the Ciriculum</div>
-      <div class="menu">menu</div>
-      <div class="blog">
-        <div id="post1" class="blogPost">blog content</div>
+      <div class="title">
+        <h1>Murder on the Ciriculum</h1></div>
+      <div class="menu">
+        <button class="btn" id="btnNotes">Case Notes</button>        
+        <button  class="btn" id="btnRules">Rules of the game</button>        
+        <button class="btn" id="btnPlayers">Players</button>        
       </div>
+
+      <div class="blog">
+        <div id="viewNotes" class="blogPost">
+          <h1>Case Notes...</h1>
+          <div id="post1" >
+            <img src="../MurderMystery/images/stamp.png"/>
+          </div>
+        </div>
+        <div  id="viewRules" class="blogPost" hidden>
+          <h2>The Game Rules</h2>
+          <h2> - How It Works</h2>
+          <p>Each player receives an envelope or an email containing:</p>
+          <ul>
+              <li>The story of the crime</li>
+              <li>The rules of the game</li>
+              <li>Your role: Innocent or Culprit</li>
+              <li>A short questionnaire that will help generate clues during the investigation.</li>
+          </ul>
+          <h3>All Players</h3>
+            <p>If you are questioned by another player:</p> 
+            <p class="red"> You CANNOT LIE</p>
+              <p> but you may choose to not volunteer extra information.</p>
+            <p>Answer only what is asked.</p> 
+
+            <p>Voting</p>
+            <p>Each Friday, players may vote for who they believe the Culprit is.
+            If a suspect receives 7 votes, they must stand trial
+            At trial, the suspect must reveal their identity.
+            If they are the Culprit, the game ends and the investigators win.
+            If they are Innocent, the game continues,</p>
+            
+
+          <h3>Detectives/Suspects</h3>
+          <p>Your goal is to discover the Culprit. You may question other players to gather information.
+            However: You cannot directly ask someone if they are the culprit.</p>
+            <p>Examples of acceptable questions:</p>
+            <ul>
+              <li>“What do you usually drink at break?”</li>
+              <li>“Did you start early today?”</li>
+              <li>“Were you on duty yesterday?”</li>
+              <li>How much glitter do you think is an acceptable amount?</li>
+          </ul>
+          <p>Use answers and released clues to form your suspicions.</p>
+            <p>If you receive a "Hit" Card:</p>
+            <p>You have been hit! you are out of the game</p>
+            <p>You may not discuss the game with anyone beyond the point that you were "hit", so you can still talk about the incidents that happend and how they impact the Case</p>
+            <p>just pretend not to know anything about the new developments. </p>
+            
+          <h3>Murderer</h3>
+            <p>Your goal is to eliminate 3 players without being discovered.
+            <p>Each Week You must eliminate one player by giving them a Hit Card.</p>
+            <p>You may deliver the card by:</p>
+          <ul>
+            <li>Placing it in their cubby</li>
+            <li>Leaving it on their desk</li>
+            <li>Handing it to them directly</li>
+          </ul>
+          <p>But...</p>
+          <p class="red">You must not be seen delivering the card.</p>
+          <p>Once the hit is complete you must text the organiser with:</p>
+          <ul>
+            <li>Who you eliminated</li>
+            <li>Where the hit occurred</li>
+            <li>What time it happened</li>
+          </ul>
+
+          <p>This information will be used to generate clues for the investigation.</p>
+          <p>Restrictions</p>
+          <p>To keep the game fair:</p>
+          <p>Hits cannot occur in or during a class. Hits must happen on school grounds, you may only eliminate one player per week</p>
+        </div>
+        <div class="blogPost"id="viewPlayers" hidden>
+          <h2>Who is Playing?</h2>
+      </div>
+    </div>
     </div>
     </div>
   </body>
