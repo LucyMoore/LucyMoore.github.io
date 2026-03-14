@@ -29,6 +29,8 @@ body {
 .blog {
   font-family: 'Courier New', Courier, monospace;
   border: 2px blue solid;
+  background-image: url('../images/cardboard.jpg');
+  background-size: cover;
 }
 
 button {
@@ -41,15 +43,9 @@ button {
   display: block;
 }
 
-.red {
-  color: red;
-}
-
 button:hover {
   background-color: #5f82dd;
 }
 
 #post1 {
-  background-image: url('../images/cardboard.jpg');
-  background-size: cover;
 }
